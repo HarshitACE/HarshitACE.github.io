@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Hi, I&#39;m Harshit.</title>
+    <link>https://example.com/projects/</link>
+    <description>Recent content in Projects on Hi, I&#39;m Harshit.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 25 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code&#39;22</title>
+      <link>https://example.com/projects/hello/</link>
+      <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/hello/</guid>
+      <description>GitHub</description>
+    </item>
+    
+    <item>
+      <title>API Proxy Server</title>
+      <link>https://example.com/projects/proxyapi/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/proxyapi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PDF Extractor</title>
+      <link>https://example.com/projects/pdf-extractor/</link>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/pdf-extractor/</guid>
+      <description>GitHub</description>
+    </item>
+    
+    <item>
+      <title>React Booking Application</title>
+      <link>https://example.com/projects/react-booking-page/</link>
+      <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/react-booking-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fraud Detection using Benford&#39;s Law</title>
+      <link>https://example.com/projects/fraud-detection/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/fraud-detection/</guid>
+      <description>GitHub</description>
+    </item>
+    
+    <item>
+      <title>Ulam Spiral</title>
+      <link>https://example.com/projects/ulam-spiral/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/ulam-spiral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI Trading Bot</title>
+      <link>https://example.com/projects/ai-trading-bot/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/ai-trading-bot/</guid>
+      <description>Github</description>
+    </item>
+    
+    <item>
+      <title>iOS Unsplash App</title>
+      <link>https://example.com/projects/iosphotoapp/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/iosphotoapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firedrake Optimisation</title>
+      <link>https://example.com/projects/firedrake/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/firedrake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Animal GAN</title>
+      <link>https://example.com/projects/animalgan/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/animalgan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
