@@ -6,15 +6,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://harshitace.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Lorem Ipsum</title>
-            <link>https://harshitace.github.io/posts/2022/09/lorem-ipsum/</link>
-            <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+            <title>Making my own Open Source Data Anayltics Project for F1 Enthusiasts</title>
+            <link>https://harshitace.github.io/posts/2023/04/making-my-own-open-source-data-anayltics-project-for-f1-enthusiasts/</link>
+            <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
             
-            <guid>https://harshitace.github.io/posts/2022/09/lorem-ipsum/</guid>
+            <guid>https://harshitace.github.io/posts/2023/04/making-my-own-open-source-data-anayltics-project-for-f1-enthusiasts/</guid>
             <description>Hi there Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
             <content type="html"><![CDATA[<h1 id="hi-there">Hi there</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
