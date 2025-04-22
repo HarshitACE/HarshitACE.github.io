@@ -5,9 +5,18 @@
     <link>https://harshitace.github.io/</link>
     <description>Recent content on Hi, I&#39;m Harshit.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://harshitace.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://harshitace.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom Ray Tracer in C&#43;&#43;</title>
+      <link>https://harshitace.github.io/posts/2025/04/custom-ray-tracer-in-c-/</link>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://harshitace.github.io/posts/2025/04/custom-ray-tracer-in-c-/</guid>
+      <description>Ray Tracer - Day 1 &amp;amp; 2 Introduction: It is September of 2018, I am in my Undergrad Era, Kimi Raikkonen has stuck it on pole at Monza for Ferrari, Eminem&amp;rsquo;s Kamikaze is all the rage and breaking records and NVIDIA is ready to make Ray Tracing mainstream. Ray Tracing had existed before the RTX series of consumer grade gaming graphics card were announded but real-time ray tracing had always been seen as computationally intense workload that didn&amp;rsquo;t make sense on consumer grade hardware.</description>
+    </item>
+    
     <item>
       <title>Making an Open Source Formula 1 Anayltics Platform</title>
       <link>https://harshitace.github.io/posts/2023/04/making-an-open-source-formula-1-anayltics-platform/</link>
@@ -87,15 +96,6 @@
       
       <guid>https://harshitace.github.io/projects/ai-trading-bot/</guid>
       <description>Github</description>
-    </item>
-    
-    <item>
-      <title>iOS Unsplash App</title>
-      <link>https://harshitace.github.io/projects/iosphotoapp/</link>
-      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://harshitace.github.io/projects/iosphotoapp/</guid>
-      <description></description>
     </item>
     
   </channel>

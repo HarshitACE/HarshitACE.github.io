@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://harshitace.github.io/</loc>
-    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+    <loc>https://harshitace.github.io/posts/2025/04/custom-ray-tracer-in-c-/</loc>
+    <lastmod>2025-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://harshitace.github.io/posts/2023/04/making-an-open-source-formula-1-anayltics-platform/</loc>
-    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+    <loc>https://harshitace.github.io/</loc>
+    <lastmod>2025-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://harshitace.github.io/posts/</loc>
+    <lastmod>2025-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://harshitace.github.io/posts/2023/04/making-an-open-source-formula-1-anayltics-platform/</loc>
     <lastmod>2023-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://harshitace.github.io/projects/hello/</loc>
