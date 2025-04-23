@@ -41,7 +41,7 @@
 <meta itemprop="name" content="Custom Ray Tracer in C&#43;&#43;">
 <meta itemprop="description" content="Ray Tracer - Day 1 &amp; 2 Introduction: It is September of 2018, I am in my Undergrad Era, Kimi Raikkonen has stuck it on pole at Monza for Ferrari, Eminem&rsquo;s Kamikaze is all the rage and breaking records and NVIDIA is ready to make Ray Tracing mainstream. Ray Tracing had existed before the RTX series of consumer grade gaming graphics card were announded but real-time ray tracing had always been seen as computationally intense workload that didn&rsquo;t make sense on consumer grade hardware."><meta itemprop="datePublished" content="2025-04-22T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2025-04-22T00:00:00+00:00" />
-<meta itemprop="wordCount" content="362"><meta itemprop="image" content="https://harshitace.github.io"/>
+<meta itemprop="wordCount" content="724"><meta itemprop="image" content="https://harshitace.github.io"/>
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://harshitace.github.io"/>
@@ -132,7 +132,7 @@
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
-        2 minutes
+        4 minutes
 
         
       </p>
@@ -159,17 +159,38 @@ ray tracing had always been seen as computationally intense workload that didn&r
 A swanky presentation with swathes of gameplay videos of every surface looking like it got dipped in oil later,
 ray tracing had arrived and soon became the talk of the town.</p>
 <p>As an avid <em>gamer</em> you best believe I was on the internet trying to look up every upcoming title that would give me all
-the oil dipped eye candy I desried. I had accepted that ray tracing was computationally intensive - hence you take a
+the oil dipped eye candy I desired. I had accepted that ray tracing was computationally intensive - hence you take a
 performance hit when you have ray tracing on and the fact without the <em>rt cores</em> in the RTX cards. Real-time ray tracing
 wasn&rsquo;t even a thing that made sense to put in games. I accepted it, but, why exactly? I was taught in middle school how
 light rays bounces (reflects) and bends (refracts). The equations governing that behaviour don&rsquo;t seem all that daunting
-yet it is computationally expensive that special hardware features are required to enable it? Assignments and getting
+yet, it is computationally expensive that special hardware features are required to enable it? Assignments and getting
 ready to build my new RTX PC made it that this thought just remained a thought and I never really explored it. That is
 until now. It is 2025 I am working at my dream job and I don&rsquo;t have nearly enough time to keep up with the latest ray
 traced titles. But, what I do have is some time to catch up on old things I always wanted to explore and this week I am
 looking at implementing a custom ray tracer.</p>
 <p>The ray tracer described here is from the very famous post <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">Ray Tracing in One weekend</a> from Peter Shirley.</p>
 <h2 id="day-1---project-setup-and-vector-implementation">Day 1 - Project Setup and Vector Implementation</h2>
+<p>I have been dabbling a lot in CMake a lot lately, it is an amazing tool and when it works it <em>just works</em> but, there is
+just so much customisability and granularity that comes with it that you really have to devote some serious time to get
+a feeling for the best patterns and practices to work with CMake. To bake in some well established good practices I used
+<a href="https://github.com/friendlyanon/cmake-init">cmake-init</a>. Please do check the project out if you too are feeling slightly
+overwhelmed by CMake.</p>
+<p>CMake out of the way now we can start writing our ray tracer. The first thing I wrote this day was rendering a gradient
+square. We pipe the output of <code>stdout</code> to a <code>.ppm</code> file and that becomes our image. Hence, producing a gradient square
+was trivial - essentially you just iterate over the rows and columns setting an RGB value for each of the squares based
+on their position. Next came implementing the vector class and aliasing it to <code>color</code> and <code>point3</code>, so it could be used
+when we are trying to work with colors and points, both of which as you can imagine come handy when dealing with a ray
+tracer.</p>
+<p>A cool insight that you get when working on projects like these are how is the code structured in the industry and what
+practices are used. I was picking up on how this project was taking shape, the patterns of making libraries out of utilities
+like vector etc. that can then be consumed by the main seemed like a sensible approach to promote separation of concerns
+and decoupling different parts of the program.</p>
+<h3 id="basic-scene-renderer-and-defining-a-ray">Basic scene renderer and defining a ray</h3>
+<p>We now start by adding some <em>Physics</em> into the mix and talk about what a ray actually is. A ray, in its most basic
+mathematical sense has a fixed starting point and a direction. It can be extended infinitely in its direction but the
+initial point or <em>origin</em> of the ray remains fixed. Hopefully, you can see how vectors emerge as a perfect representation
+of our concept of a <em>ray</em>.</p>
+<p>We choose to define a ray by the following (Ray = A + tB)</p>
 <h2 id="day-2---rendering-my-first-object-the-graphics-programming-hello-world">Day 2 - Rendering my first object (The graphics programming Hello World)</h2>
 
       </div>
@@ -189,7 +210,7 @@ looking at implementing a custom ray tracer.</p>
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        362 Words
+        724 Words
       </p>
 
       <p>
